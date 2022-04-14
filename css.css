@@ -1,0 +1,52 @@
+h1{
+    margin: 50px 0;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;    
+}
+body{
+    background-color: aqua;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.clock{
+    border: 3px solid #000;
+    border-radius: 150px;
+    padding: 0 120px;
+    background-color: #fff;
+}
+p{
+    font-size: 70px;
+}
+.timesr{
+    margin: 50px 0;
+    border: 5px solid gray;
+    border-radius: 120px;
+    padding: 20px 20px;
+    background-color: #fff;
+
+}
+#start{
+    margin: 0 20px;
+    background: url(2.png) 0 0/40px 40px no-repeat;
+    padding:20px 20px;
+    border: none;
+}
+#pause{
+    margin: 0 20px;
+    background: url(free-icon-font-refresh-3917293.png) 0 0/38px 38px no-repeat;
+    padding:20px 20px;
+    border: none;
+
+}
+#end{
+    margin: 0 20px;
+    background: url(free-icon-font-cross-circle-3917206.png) 0 0/40px 40px no-repeat;
+    padding:20px 20px;
+    border: none;
+
+}
